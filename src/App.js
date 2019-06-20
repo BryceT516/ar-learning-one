@@ -7,7 +7,7 @@ class App extends Component {
   render() {
     return (
       <AFrameRenderer
-        arTookKit={{ sourceType: 'webcam', sourceUrl: ''}}
+        arTookKit={{ sourceType: 'image', sourceUrl: './assets/hiro.jpg'}}
         stats
       >
         <Marker parameters={{ preset: 'hiro'}}>
